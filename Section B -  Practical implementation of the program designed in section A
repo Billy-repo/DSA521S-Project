@@ -1,0 +1,18 @@
+package musicPlayer;
+
+import java.util.LinkedList;
+
+public class mainPlayer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> playlist = new LinkedList<>();
+		playlist.add("song1");
+		playlist.add("song2");
+		playlist.add("song3");
+		
+		playlist.remove();
+
+	}
+
+}
